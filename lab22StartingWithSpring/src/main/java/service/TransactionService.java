@@ -2,7 +2,7 @@ package service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import repository.TransactionRepository;
+import repositories.TransactionRepository;
 
 @Component
 public class TransactionService {

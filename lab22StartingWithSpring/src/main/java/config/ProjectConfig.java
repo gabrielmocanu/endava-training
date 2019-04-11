@@ -3,7 +3,7 @@ package config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
-import repository.TransactionRepository;
+import repositories.TransactionRepository;
 
 @Configuration
 @ComponentScan(basePackages = {"repositories","service"})

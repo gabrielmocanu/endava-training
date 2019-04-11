@@ -2,20 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6810e158-afcd-496b-8860-092090c780e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab22StartingWithSpring.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj2StartingWithSpring/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj2StartingWithSpring/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj2StartingWithSpring/src/main/java/beans/TransactionRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj2StartingWithSpring/src/main/java/beans/TransactionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj2StartingWithSpring/src/main/java/config/ProjectConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proj2StartingWithSpring/src/main/java/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../soj1-Exemplu1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../soj1-Exemplu1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repositories/BankAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/BankAccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/TransactionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repositories/TransactionRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/TransactionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/TransactionService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +37,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="228">
+              <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,7 +47,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/repository/TransactionRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/TransactionRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
@@ -62,6 +56,59 @@
                 <element signature="e#142#143#0" expanded="true" />
                 <element signature="e#182#183#0" expanded="true" />
                 <element signature="e#214#215#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/model/BankAccount.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+              <folding>
+                <element signature="e#162#163#0" expanded="true" />
+                <element signature="e#194#195#0" expanded="true" />
+                <element signature="e#244#245#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
+                <element signature="e#320#321#0" expanded="true" />
+                <element signature="e#350#351#0" expanded="true" />
+                <element signature="e#396#397#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#157#158#0" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#256#257#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/repositories/BankAccountRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#358#359#0" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/service/BankAccountService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +131,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/config/ProjectConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="119">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,6 +159,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/config/ProjectConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/service/TransactionService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/model/BankAccount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/repositories/BankAccountRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/BankAccountService.java" />
         <option value="$PROJECT_DIR$/src/main/java/main/Main.java" />
       </list>
     </option>
@@ -181,7 +231,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab22StartingWithSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab22StartingWithSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="lab22StartingWithSpring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lab22StartingWithSpring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -249,16 +315,16 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Messages" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -273,33 +339,10 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/repository/TransactionRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-          <folding>
-            <element signature="e#115#116#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-            <element signature="e#182#183#0" expanded="true" />
-            <element signature="e#214#215#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/ProjectConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -315,10 +358,80 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/config/ProjectConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/TransactionRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#115#116#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+            <element signature="e#182#183#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/model/BankAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="e#162#163#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#396#397#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/repositories/BankAccountRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="23" column="35" lean-forward="true" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/service/BankAccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/main/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="228">
+          <caret line="21" column="92" selection-start-line="21" selection-start-column="92" selection-end-line="21" selection-end-column="92" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
