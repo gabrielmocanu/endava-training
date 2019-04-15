@@ -19,7 +19,14 @@ public class Main {
             BankAccount bankAccount2 = new BankAccount();
             bankAccount2.setIban("2");
             bankAccount2.setBalance(500);
-            BankAccountService bankAccountService = context.getBean(BankAccountService.class
+            BankAccountService bankAccountService = context.getBean(BankAccountService.class);
+
+            bankAccountService.addBankAccount(bankAccount1);
+            bankAccountService.addBankAccount(bankAccount2);
+            bankAccountService.transferMoney("1","2",10.0);
+
+            System.out.println(bankAccount1);
+            System.out.println(bankAccount2);
         }
     }
 
