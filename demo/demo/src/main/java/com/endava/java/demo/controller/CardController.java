@@ -24,6 +24,7 @@ public class CardController {
     public ResponseEntity<Card> addCard(@RequestBody Card card, HttpServletResponse response){
         cardService.addCardRepository(card,response);
         ResponseEntity<Card> responseEntity = new ResponseEntity<>(card,HttpStatus.OK);
+        System.out.println(card);
         return responseEntity;
     }
 

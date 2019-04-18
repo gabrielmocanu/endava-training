@@ -1,0 +1,53 @@
+create table dept {
+id number(2),
+name varchar2(40),
+constrain pk_dept primary key(id));
+
+describe dept;
+select * from dept;
+
+creat table emp{
+id number(2),
+name varchar2(40),
+age number(2),
+dept_id number(2),
+constrain pk_emp primary key(id),
+constrain fk_emp foreign key(dept_id) references dept(id));
+
+describe emp;
+
+insert into dept values(1, 'NETS');
+insert into dept(id,name) values(2, 'Accounting');
+insert into emp values (1,'Andrei',21,1);
+insert into emp values (2,'Aurel' , 30,1);
+insert into emp values (3,'Costel',30,1);
+
+update emp set age=35;
+update emp set age=35 where name='Costel';
+update emp set age=35 where id=3;
+
+truncate table dept;
+truncate table emp;
+
+select count(*) from emp;
+select min(age) from emp;
+
+
+select age from emp where name like 'Costel'
+select age from emp where name like '%el'
+
+select * from emp
+left/right join emp
+on dept.id=emp.dept_id;
+
+select count(*) as nr_emp, name from emp
+where age>30
+group by name;
+
+
+select count(*) as nr_emp, name from emp
+where age>30
+group by name
+having count(*) > 1;
+
+
