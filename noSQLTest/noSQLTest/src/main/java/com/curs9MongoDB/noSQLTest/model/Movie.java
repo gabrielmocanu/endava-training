@@ -16,7 +16,9 @@ public class Movie {
     public Cast getCast() {
         return cast;
     }
-    
+
+    // Tema microserviciu -> Baza de date separate, user reomandations movies.
+
     private String title;
     private String genre;
 
